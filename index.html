@@ -5,12 +5,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
     <header class="container">
-        <h1 class="banner-title margin-top">VITO</h1>
+        <h1 class="banner-title margin-top animate__animated animate__bounce">VITO</h1>
         <div class="banner-img">
             <img src="img/vito.png" alt="">
         </div>
@@ -18,15 +19,17 @@
     </header>
     <div class="desc">
         <div class="container">
-            <p class="w-50 ml-auto">I'm Vito, a UI Designer with 5+ years of experience. I create visually appealing
+            <p class="w-50 ml-auto" data-aos="fade-left">
+                I'm Vito, a UI Designer with 5+ years of experience. I create visually appealing
                 interfaces for web and
                 mobile apps. Proficient in Sketch, Adobe XD, Figma, HTML, CSS, and JavaScript. I enjoy collaborating
-                with others to create high-quality products.</p>
+                with others to create high-quality products.
+            </p>
         </div>
     </div>
     <section class="container about">
         <ul class="about-list w-50">
-            <li >
+            <li>
                 <h3 class="about-item-title">Vito Evans</h3>
                 <ul>
                     <li class="mb-2"><a href="#">456 Walnut Avenue, Someville, USA</a></li>
@@ -35,7 +38,7 @@
                     <li><a href="#">www.infohexschool.com</a></li>
                 </ul>
             </li>
-            <li >
+            <li>
                 <h3 class="about-item-title">Education</h3>
                 <ul>
                     <li class="mb-4">
@@ -54,7 +57,7 @@
                     </li>
                 </ul>
             </li>
-            <li >
+            <li>
                 <h3 class="about-item-title">Work</h3>
                 <ul>
                     <li class="mb-4">
@@ -71,7 +74,7 @@
                     </li>
                 </ul>
             </li>
-            <li >
+            <li>
                 <h3 class="about-item-title">Awards</h3>
                 <ul>
                     <li class="mb-3">Best in Show Award, National Advertising Awards, 2020</li>
@@ -88,5 +91,12 @@
             <li><a href="#"><img src="img/line.png" alt=""></a></li>
         </ul>
     </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="main.js"></script>
+    <!-- 可以寫在這 也可以用引入 -->
+    <!-- <script>
+        AOS.init();
+    </script> -->
 </body>
+
 </html>
